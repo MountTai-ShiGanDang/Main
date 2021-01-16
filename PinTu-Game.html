@@ -20,9 +20,9 @@
 				width:96px;
 				height:128px;
 				position:absolute;
-				background:url("../xiaomao.jpg");
+				background:url("../1604746917063.jpg");
 				background:rgb(98,133,95);
-				/*background:url("./xiaomao.jpg");*/
+				/*background:url("./1604746917063.jpg");*/
 				background-size:1000% 1000%;
 				/*relative*/
 				}
@@ -48,10 +48,10 @@
 			2.绑定鼠标移入事件
 			3鼠标移入，让事件的元素本事的背景图路径发生改变
 			*/
-			var divs=wrap.querySelectorAll('div')
+            var divs=wrap.querySelectorAll('div')
 			for(var i=0;i<divs.length;i++){
 				//自定义属性
-				divs[i].showImg=false;
+                divs[i].showImg=false;
 				divs[i].onmouseover=function(){
 					
 					//如果没有显示背景图，count就加1
@@ -63,7 +63,7 @@
 					if(count==100){
 						console.log('图片全部显示完成')
 						}
-					this.style.backgroundImage='url(xiaomao.jpg)'
+					this.style.backgroundImage='url(1604746917063.jpg)'
 					//每次点击都加1
 					
 					}
